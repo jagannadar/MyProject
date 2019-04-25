@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="236403" started-at="2019-04-22T11:02:32Z" finished-at="2019-04-22T11:06:28Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="236403" started-at="2019-04-22T11:02:32Z" finished-at="2019-04-22T11:06:28Z">
+      <class name="testcases.TC002_Delete_Lead">
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:testcases.TC002_Delete_Lead@2a079c]" name="login" is-config="true" duration-ms="20315" started-at="2019-04-22T11:03:53Z" finished-at="2019-04-22T11:04:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="Delete_Create(java.lang.String)[pri:3, instance:testcases.TC002_Delete_Lead@2a079c]" name="Delete_Create" duration-ms="61575" started-at="2019-04-22T11:04:14Z" data-provider="jags" finished-at="2019-04-22T11:05:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jagannadar44@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete_Create -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:testcases.TC002_Delete_Lead@2a079c]" name="closeApp" is-config="true" duration-ms="664" started-at="2019-04-22T11:05:15Z" finished-at="2019-04-22T11:05:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testcases.TC002_Delete_Lead -->
+      <class name="testcases.TC001_Create_Lead">
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.TC001_Create_Lead@100df86]" name="setData" is-config="true" duration-ms="19" started-at="2019-04-22T11:02:32Z" finished-at="2019-04-22T11:02:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.TC002_Delete_Lead@2a079c]" name="setData" is-config="true" duration-ms="0" started-at="2019-04-22T11:02:32Z" finished-at="2019-04-22T11:02:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:testcases.TC001_Create_Lead@100df86]" name="login" is-config="true" duration-ms="19347" started-at="2019-04-22T11:02:33Z" finished-at="2019-04-22T11:02:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="LoginAndCreate(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testcases.TC001_Create_Lead@100df86]" name="LoginAndCreate" duration-ms="60324" started-at="2019-04-22T11:02:52Z" data-provider="JAGAN" finished-at="2019-04-22T11:03:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Infy]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Jagan]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ramar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAndCreate -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:testcases.TC001_Create_Lead@100df86]" name="closeApp" is-config="true" duration-ms="724" started-at="2019-04-22T11:03:53Z" finished-at="2019-04-22T11:03:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:testcases.TC001_Create_Lead@100df86]" name="login" is-config="true" duration-ms="9262" started-at="2019-04-22T11:05:16Z" finished-at="2019-04-22T11:05:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="LoginAndCreated(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:testcases.TC001_Create_Lead@100df86]" name="LoginAndCreated" duration-ms="62363" started-at="2019-04-22T11:05:25Z" data-provider="JAGAN" finished-at="2019-04-22T11:06:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Infy]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Jagan]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ramar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAndCreated -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:testcases.TC001_Create_Lead@100df86]" name="closeApp" is-config="true" duration-ms="684" started-at="2019-04-22T11:06:28Z" finished-at="2019-04-22T11:06:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testcases.TC001_Create_Lead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
