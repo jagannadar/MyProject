@@ -19,7 +19,7 @@ public class BaseUtils {
 		public static String cmpre;
 		public static String duplicate;
 		
-		@Parameters({"url"})
+		@Parameters({"url"}) 
 		@BeforeMethod
 		public void login(String url)
 		{
@@ -53,7 +53,7 @@ public class BaseUtils {
 			return ReadExcel.getExceldata(excelFileName);
 		}
 	
-		@DataProvider(name = "jagu")
+		@DataProvider(name = "jagu" )
 		public String[][] getEditData() throws IOException
 		{
 			return ReadExcel.getExceldata(excelFileName);
