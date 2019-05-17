@@ -49,6 +49,7 @@ public class ArrayDuplicate {
 		int num3[] = {3,3,4,2,1,5,6,7,5};
 		for(int i=0; i < num3.length ; i ++)
 		{
+			boolean add = sett.add(num3[1]);
 		if(sett.add(num3[i])==false)
 				{
 					System.out.println(num3[i]);

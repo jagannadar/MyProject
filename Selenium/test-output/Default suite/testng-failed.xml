@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="leafground.Alertss">
+      <class name="leafground.DropDown">
         <methods>
           <include name="alertt"/>
         </methods>
-      </class> <!-- leafground.Alertss -->
+      </class> <!-- leafground.DropDown -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

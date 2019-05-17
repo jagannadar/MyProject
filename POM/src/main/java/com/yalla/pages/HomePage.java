@@ -11,6 +11,7 @@ public class HomePage extends Annotations{
 
 	public HomePage() {
        PageFactory.initElements(driver, this);
+       
 	} 
 
 	@FindBy(how=How.CLASS_NAME, using="decorativeSubmit") WebElement eleLogout;

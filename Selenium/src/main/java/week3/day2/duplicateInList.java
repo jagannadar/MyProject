@@ -28,6 +28,8 @@ public class duplicateInList {
 			}
 		}
 		
+	
+		
 		
 		System.out.println("List After deleting the duplicate " +lname);
 		

@@ -12,6 +12,9 @@ public class Buttons {
 		System.setProperty("webdriver.chrome.driver","./drivers/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		
+		driver.get("http://www.leafground.com/pages/Dropdown.html");
+		driver.findElementByXPath(("//select[@multiple]/option)[4]")).click();
+		
 		driver.get("http://www.leafground.com/pages/Button.html");
 		
 		driver.findElementById("home").click();
@@ -23,6 +26,8 @@ public class Buttons {
 		System.out.println(driver.findElementById("color").getCssValue("background-color"));
 		
 		System.out.println(driver.findElementById("size").getSize());
+		
+		
 	}
 
 }

@@ -11,6 +11,7 @@ public class LoginPage extends Annotations{
 	
 	public LoginPage() {
 		PageFactory.initElements(driver, this); 
+		
 	}
 	
 	@FindBy(how=How.ID, using="username")  WebElement eleUserName;
