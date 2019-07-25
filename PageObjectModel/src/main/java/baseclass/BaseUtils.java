@@ -48,6 +48,7 @@ public class BaseUtils {
 		}
 		
 		@DataProvider(name = "jags")
+		
 		public String[][] getDataa() throws IOException
 		{
 			return ReadExcel.getExceldata(excelFileName);
