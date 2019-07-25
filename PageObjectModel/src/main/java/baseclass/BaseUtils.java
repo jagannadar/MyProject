@@ -13,7 +13,7 @@ import org.testng.annotations.Parameters;
 
 
 public class BaseUtils {
-
+  
 		public static ChromeDriver driver;
 		public String excelFileName;
 		public static String cmpre;
