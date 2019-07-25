@@ -18,7 +18,7 @@ public class BaseUtils {
 		public String excelFileName;
 		public static String cmpre;
 		public static String duplicate;
-		
+		  
 		@Parameters({"url"}) 
 		@BeforeMethod
 		public void login(String url)
