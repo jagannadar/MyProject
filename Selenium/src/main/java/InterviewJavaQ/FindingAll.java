@@ -27,6 +27,7 @@ public class FindingAll  extends BaseTestNg {
 		System.out.println("number: " + num);
 		System.out.println("specialCharcter: " + specialChar);
 	}
+	
 	@Test(priority=2)
 	public void findAllCharactesInString() {
 		for (int j = 0; j < ch.length; j++) {
